@@ -195,16 +195,16 @@
     .main_content h1{
         font-size:2rem;
         margin-top:2rem;
-        transform: translate(50%,0%);
+        transform: translate(20%,0%);
     }
     .main_btn{
         font-size: 1rem;
-        transform: translate(-15%,0%);
+        transform: translate(-10%,0%);
     }
     .main_bgi{
         max-width: 100%;
         height:auto;
-        transform: translate(-7%,0%);
+        transform: translate(0%,0%);
     }
 }
 @media screen and (max-width: 960px){
@@ -225,7 +225,7 @@
     .main_content h1{
         font-size:2rem;
         margin-top:2rem;
-        transform: translate(50%,0%);
+        transform: translate(20%,0%);
     }
     .main_btn{
         font-size: 1rem;

@@ -195,11 +195,11 @@
     .main_content h1{
         font-size:2rem;
         margin-top:2rem;
-        transform: translate(20%,0%);
+        transform: translate(0%,0%);
     }
     .main_btn{
         font-size: 1rem;
-        transform: translate(-10%,0%);
+        transform: translate(0%,0%);
     }
     .main_bgi{
         max-width: 100%;
@@ -225,7 +225,7 @@
     .main_content h1{
         font-size:2rem;
         margin-top:2rem;
-        transform: translate(20%,0%);
+        transform: translate(0%,0%);
     }
     .main_btn{
         font-size: 1rem;

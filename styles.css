@@ -48,7 +48,7 @@
     text-decoration: none;
     font-family:cursive;
     font-size:3rem;
-    transform: translate(-90%,0%);
+    transform: translate(-60%,0%);
 }
 .navbar_menu{
     display:flex;
@@ -141,7 +141,7 @@
     padding:0 50px; 
 }
 .main_content h1{
-    font-size:8rem;
+    font-size:5rem;
     background-color: rgb(10, 10, 10);
     background-image: linear-gradient(to top,rgb(133, 132, 136) 0%,rgb(1, 0, 5) 100%);
     background-size: 100%;
@@ -193,7 +193,7 @@
         margin-bottom:4rem;
     }
     .main_content h1{
-        font-size:4rem;
+        font-size:2rem;
         margin-top:2rem;
         transform: translate(10%,0%);
     }
@@ -223,7 +223,7 @@
         margin-bottom:4rem;
     }
     .main_content h1{
-        font-size:4rem;
+        font-size:2rem;
         margin-top:2rem;
         transform: translate(15%,0%);
     }

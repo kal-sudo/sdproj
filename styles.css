@@ -193,16 +193,11 @@
     height: auto;
     gap:6px;
 }
-.pl{
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    object-fit: cover;
-}
 .mainc h2{
     font-family: cursive;
     font-size: 2rem;
     color:white;
+    margin:0px 80px;
 }
 @media screen and (max-width: 768px){
     .main_container{

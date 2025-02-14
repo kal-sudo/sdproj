@@ -140,6 +140,76 @@
     max-width: 1300px;
     padding:0 50px; 
 }
+.main_contain {
+    display: grid;
+    grid-template-columns: 1fr 2fr; /* Two columns: one for the heading, one for the suitors */
+    align-items: start; /* Align items to the top */
+    justify-self: center;
+    margin: 0 auto;
+    height: 90vh;
+    z-index: 0;
+    width: 100%;
+    max-width: 1300px;
+    padding: 0 50px;
+    gap: 0px; /* Add some space between the columns */
+}
+
+.head_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    height:100%;
+    transform: translate(-30%,0%);
+}
+
+.head_container h1 {
+    font-size: 4rem;
+    background-color: rgb(10, 10, 10);
+    background-image: linear-gradient(to top, rgb(133, 132, 136) 0%, rgb(1, 0, 5) 100%);
+    background-size: 100%;
+    background-clip: text;
+    color: transparent;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.suitors_container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns for the suitors */
+    gap: 10px; /* Space between suitor items */
+    margin:0px 0px;
+}
+
+.mainc {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    padding: 20px 10px;
+    background-color: black;
+    border-radius: 8px;
+    text-decoration: none;
+    z-index: 999;
+    box-sizing: border-box;
+    width: fit-content;
+    height: auto;
+
+    margin:10px 10px;
+}
+
+.mainc h2 {
+    font-family: cursive;
+    font-size: 2rem;
+    color: white;
+    margin: 0px 80px;
+}
+
+.butt:hover {
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
 .main_content h1{
     font-size:4rem;
     background-color: rgb(10, 10, 10);
@@ -199,7 +269,7 @@
     color:white;
     margin:0px 80px;
 }
-.mainc butt:hover{
+.butt:hover{
     cursor:pointer;
     transition:all 0.2s smooth; 
 }

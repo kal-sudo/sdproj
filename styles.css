@@ -135,7 +135,7 @@
     justify-self: center;
     margin: 0 auto;
     height: 90vh;
-    z-index:1;
+    z-index:0;
     width: 100%;
     max-width: 1300px;
     padding:0 50px; 
@@ -180,7 +180,7 @@
 }
 .mainc{
     display:flex;
-    background:white;
+    background-color:white;
     border-radius:8px;
     text-decoration: none;
     z-index:999;

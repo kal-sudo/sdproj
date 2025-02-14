@@ -182,7 +182,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* Two columns for the suitors */
     gap: 10px; /* Space between suitor items */
-    margin:5px 0px 0px 0px;
+    margin:15px 0px 0px 0px;
     max-height: 95%;
     max-width: auto;
 }

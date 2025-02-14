@@ -257,7 +257,7 @@
     background-color:black;
     border-radius:8px;
     text-decoration: none;
-    z-index:999;
+    z-index:1;
     box-sizing: border-box;
     width:fit-content;
     height: auto;

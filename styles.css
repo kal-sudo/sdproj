@@ -3,11 +3,11 @@
     font-weight: 400;
     font-style: normal;
   }
- /* body, html {
+  body, html {
     overflow: hidden;
     height: 100%;     
     margin: 0;         
-}*/
+}
 
 *{
     box-sizing: border-box;
@@ -76,7 +76,7 @@
     color:pink;
     transition:all 0.2s ease;
 }
-@media screen and (max-width:384px){
+@media screen and (max-width:768px){
     .navbar_container{
         display:flex;
         justify-content: center;
@@ -178,7 +178,7 @@
     transition:all 0.3s smooth;
     cursor:pointer;
 }
-@media screen and (max-width: 384px){
+@media screen and (max-width: 768px){
     .main_container{
         display: grid;
         grid-template-columns: auto;

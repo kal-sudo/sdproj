@@ -178,6 +178,13 @@
     transition:all 0.3s smooth;
     cursor:pointer;
 }
+.mainc{
+    display:flex;
+    background:white;
+    border-radius:8px;
+    text-decoration: none;
+    
+}
 @media screen and (max-width: 768px){
     .main_container{
         display: grid;

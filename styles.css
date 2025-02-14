@@ -181,7 +181,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* Two columns for the suitors */
     gap: 10px; /* Space between suitor items */
-    margin:0px 0px;
+    margin:5px 0px;
 }
 
 .mainc {
@@ -189,7 +189,7 @@
     align-items: center;
     justify-content: flex-start;
     text-align: center;
-    padding: 12px 12px;
+    padding: 20px 12px;
     background-color: black;
     border-radius: 8px;
     text-decoration: none;

@@ -138,6 +138,7 @@
     z-index:0;
     width: 100%;
     max-width: 1300px;
+    /*max-height: 100%;*/
     padding:0 50px; 
 }
 .main_contain {
@@ -252,7 +253,7 @@
     align-items: center;
     justify-content: flex-start;
     text-align: center;
-    padding: 20px 10px;
+    
     background-color:black;
     border-radius:8px;
     text-decoration: none;

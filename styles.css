@@ -199,6 +199,10 @@
     color:white;
     margin:0px 80px;
 }
+.mainc:hover{
+    cursor:pointer;
+    transition:all 0.2s smooth; 
+}
 @media screen and (max-width: 768px){
     .main_container{
         display: grid;

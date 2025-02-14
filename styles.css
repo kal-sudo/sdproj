@@ -179,7 +179,7 @@
     cursor:pointer;
 }
 .mainc{
-    display:flex;
+    display:block;
     background-color:white;
     border-radius:8px;
     text-decoration: none;

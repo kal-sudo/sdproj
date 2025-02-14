@@ -181,7 +181,7 @@
 .mainc{
     display:flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     text-align: center;
     padding: 20px 10px;
     background-color:white;
@@ -191,11 +191,13 @@
     box-sizing: border-box;
     width:fit-content;
     height: auto;
-
+    gap:6px;
 }
 .pl{
     width: 8px;
     height: 8px;
+    border-radius: 50%;
+    object-fit: cover;
 }
 @media screen and (max-width: 768px){
     .main_container{

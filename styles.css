@@ -163,7 +163,6 @@
     justify-items: center;
     text-align: center;
     height:100%;
-    transform: translate(30%,0%);
     max-height: 100%;
     max-width: auto;
 }

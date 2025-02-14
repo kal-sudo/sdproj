@@ -179,7 +179,11 @@
     cursor:pointer;
 }
 .mainc{
-    display:block;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px 0px;
     background-color:white;
     border-radius:8px;
     text-decoration: none;

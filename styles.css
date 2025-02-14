@@ -164,6 +164,8 @@
     text-align: center;
     height:100%;
     transform: translate(-30%,0%);
+    max-height: 100%;
+    max-width: auto;
 }
 
 .head_container h1 {
@@ -182,6 +184,8 @@
     grid-template-columns: repeat(2, 1fr); /* Two columns for the suitors */
     gap: 10px; /* Space between suitor items */
     margin:5px 0px;
+    max-height: 100%;
+    max-width: auto;
 }
 
 .mainc {

@@ -48,7 +48,7 @@
     text-decoration: none;
     font-family:cursive;
     font-size:3rem;
-    transform: translate(-50%,0%);
+    transform: translate(-40%,0%);
 }
 .navbar_menu{
     display:flex;

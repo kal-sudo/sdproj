@@ -199,6 +199,10 @@
     border-radius: 50%;
     object-fit: cover;
 }
+.mainc h2{
+    font-family: cursive;
+    font-size: 3rem;
+}
 @media screen and (max-width: 768px){
     .main_container{
         display: grid;
